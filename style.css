@@ -1,0 +1,275 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #222;
+}
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.hero {
+  background-color: #222;
+  padding: 100px 0;
+}
+
+.slider {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slide {
+  float: left;
+  width: 100%;
+  height: 500px;
+}
+
+.slide img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cta h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #008CBA;
+}
+
+.cta a:hover {
+  background-color: #006495;
+}
+
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car {
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.car img {
+  width: 100%;
+}
+
+.car h3 {
+  font-size: 18px;
+}
+
+.car p {
+  font-size: 16px;
+}
+
+.car a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #008CBA;
+}
+
+.car a:hover {
+  background-color: #006495;
+}
+
+.contact form {
+  width: 50%;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact textarea {
+  height: 200px;
+}
+
+.contact input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #006495;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+/* صفحة تسجيل الدخول */
+
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  width: 100%;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-container input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #006495;
+}
+
+/* صفحة تسجيل الاشتراك */
+
+.register-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.register-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.register-container form {
+  width: 100%;
+}
+
+.register-container input[type="text"],
+.register-container input[type="password"],
+.register-container input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.register-container input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.register-container input[type="submit"]:hover {
+  background-color: #006495;
+}
+
+/* صفحة إدارة المستخدمين */
+
+.users-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.users-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-container th,
+.users-container td {
+  padding: 10px;
+}
+
+.users-container th {
+  background-color: #222;
+  color: #fff;
+}
+
+.users-container td {
+  border-bottom: 1px solid #ccc;
+}
+
+.users-container a {
+  color: #008CBA;
+  text-decoration: none;
+}
+
+.users-container a:hover {
+  color: #006495;
+}
